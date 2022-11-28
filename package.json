@@ -1,0 +1,19 @@
+{
+  "name": "06",
+  "version": "1.0.0",
+  "description": "HTML, CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=1106",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Inga",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
