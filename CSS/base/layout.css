@@ -5,17 +5,18 @@
 }
 
 .container > .row {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 1000px; 
     margin-left: calc(50% - 500px);
-    background-color: pink;
+    gap: 60px 0;
 }
 
 .container > .short-row {
     display: inline-block;
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: yellow;
 }
 
 .container > .row > .left {
@@ -32,7 +33,6 @@
     .container > .row {
         width: 800px;
         margin-left: calc(50% - 400px);
-        background-color: red;
     }
 }
 
@@ -40,7 +40,6 @@
     .container > .row {
         width: 600px;
         margin-left: calc(50% - 300px);
-        background-color: violet;
     }
 }
 
@@ -53,11 +52,9 @@
     .container > .short-row {
         width: 100%;
         margin-left: 0;
-        background-color: firebrick;
     }
     .container > .row > .left {
         width: 100%;
-        margin-bottom: 60px;
     }
     .container > .row > .right {
         width: 100%;
